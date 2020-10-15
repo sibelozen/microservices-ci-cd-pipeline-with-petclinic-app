@@ -1,6 +1,5 @@
 package org.springframework.samples.petclinic.customers.model;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import java.util.Date;
 import org.junit.jupiter.api.Test;
 public class PetTest {
     @Test
@@ -17,7 +16,7 @@ public class PetTest {
         //Arrange
         Pet pet = new Pet();
         Owner owner = new Owner();
-        owner.setFirstName("Call2");
+        owner.setFirstName("Call");
         //Act
         pet.setOwner(owner);
         //Assert
